@@ -1,0 +1,227 @@
+body {
+	 padding: 50px 0;
+	 font-size: 19px;
+	 font-family: 'Arvo', serif;;
+	 background-color: rgba(247, 245, 237, 1);
+	 margin: 0px 0px 3em 0px;
+}
+
+article {
+	 margin: 0 auto;
+	 width: 800px;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+h1 {
+	 font-family: 'Arvo', serif;;
+	 font-size: 4.61em;
+	 line-height: 1em;
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-weight: 700;
+	 font-style: normal;
+}
+
+p.intro {
+	 font-family: 'Arvo', serif;;
+	 font-size: 1.27em;
+	 border-top: 1px;
+	 border-bottom: 1px;
+	 padding: 1.154em;
+	 text-align: center;
+	 border-style: solid;
+	 line-height: 1.5em;
+	 margin: 1.038em 0px;
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+p {
+	 font-size: 1em;
+	 line-height: 1.421em;
+	 color: rgba(51, 51, 51, 0.80);
+	 margin: 0px 0px 1.421em 0px;
+	 font-family: 'Arvo', serif;;
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+h2 {
+	 font-size: 1.526em;
+	 font-family: 'Arvo', serif;;
+	 line-height: 0.931em;
+	 margin: 0px 0px 0.931em 0px;
+}
+
+p.pullquote {
+	 padding-left: 10px;
+	 border-style: solid;
+	 border-left-width: 3px;
+	 color: rgba(51, 51, 51, 1.00);
+	 font-size: 1em;
+	 line-height: 1.421em;
+	 margin: 0px 0px 1.421em 0px;
+}
+
+p.author {
+	 text-align: center;
+	 font-size: 1.35em;
+	 letter-spacing: 2px;
+	 margin-top: 27px;
+	 font-family: 'Arvo', serif;;
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+ul {
+	 margin: 0px 0px 0px 1em;
+}
+
+li {
+	 font-family: 'Arvo', serif;;
+	 font-weight: 400;
+	 font-style: normal;
+	 font-size: 1em;
+}
+
+a {
+	 color: rgba(59, 157, 221, 1);
+	 font-size: 1em;
+	 font-family: 'Arvo', serif;;
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+strong {
+	 font-family: 'Arvo', serif;;
+	 font-weight: 700;
+	 font-style: italic;
+	 font-size: 1.2em;
+}
+
+h6 {
+	 font-size: 14px;
+}
+
+h3 {
+	 font-size: 1.26em;
+	 font-family: 'Arvo', serif;;
+	 font-weight: 400;
+	 font-style: italic;
+	 margin: 1em 0px;
+}
+
+@media only screen and (max-width: 900px) {
+	 article {
+	 margin: 0 auto;
+	 width: 100%;
+	 padding: 0 2em;
+}
+
+p {
+	 font-size: 1em;
+}
+
+p.intro {
+	 font-size: 1.27em;
+}
+
+a {
+	 font-size: 1em;
+}
+
+h3 {
+	 font-size: 1.26em;
+}
+
+li {
+	 font-size: 1em;
+}
+
+h1 {
+	 line-height: 1em;
+}
+
+strong {
+	 font-size: 1.2em;
+}
+
+}@media only screen and (max-width: 768px) {
+	 p {
+	 font-size: 1em;
+}
+
+h1 {
+	 font-size: 4.08em;
+	 line-height: 1em;
+}
+
+p.author {
+	 font-size: 1.13em;
+}
+
+p.intro {
+	 font-size: 1.17em;
+	 line-height: 1.5em;
+}
+
+a {
+	 font-size: 1em;
+	 line-height: 1.362em;
+}
+
+strong {
+	 font-size: 1.2em;
+}
+
+li {
+	 font-size: 1em;
+	 line-height: 1.362em;
+}
+
+}@media only screen and (max-width: 480px) {
+	 body {
+	 font-size: 90%;
+}
+
+h1 {
+	 font-size: 3.75em;
+	 line-height: 1.13em;
+}
+
+p {
+	 font-size: 1.1em;
+}
+
+p.pullquote {
+	 font-size: 16px;
+}
+
+a {
+	 font-size: 1.1em;
+	 line-height: 1.362em;
+}
+
+h3 {
+	 font-size: 1.36em;
+}
+
+li {
+	 font-size: 1.1em;
+}
+
+p.author {
+	 letter-spacing: 2px;
+}
+
+p.intro {
+	 font-size: 1.17em;
+}
+
+strong {
+	 font-size: 1.2em;
+}
+
+}
