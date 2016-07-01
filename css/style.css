@@ -210,7 +210,8 @@ h3 {
 
 li {
 	 font-size: 1.1em;
-	 line-height: 1.2em;
+	 list-style-type: circle;
+	 margin-bottom: 1em;
 }
 
 p.author {
